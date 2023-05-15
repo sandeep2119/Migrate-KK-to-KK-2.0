@@ -1,0 +1,15 @@
+2023-05-03 12:06:48.152843 : Reply from 192.168.0.1: bytes=32 time=5ms TTL=64
+2023-05-03 12:06:48.713984 : Reply from 192.168.0.1: bytes=32 time=4ms TTL=64
+2023-05-03 12:06:49.247170 : Reply from 192.168.0.1: bytes=32 time=4ms TTL=64
+2023-05-03 12:06:49.777960 : Reply from 192.168.0.1: bytes=32 time=2ms TTL=64
+2023-05-03 12:06:50.309140 : Reply from 192.168.0.1: bytes=32 time=3ms TTL=64
+2023-05-03 12:06:50.843175 : Reply from 192.168.0.1: bytes=32 time=5ms TTL=64
+2023-05-03 12:06:51.415494 : Reply from 192.168.0.1: bytes=32 time=35ms TTL=64
+2023-05-03 12:06:51.973386 : Reply from 192.168.0.1: bytes=32 time=13ms TTL=64
+2023-05-03 12:06:52.513263 : Reply from 192.168.0.1: bytes=32 time=3ms TTL=64
+2023-05-03 12:06:53.059666 : Reply from 192.168.0.1: bytes=32 time=3ms TTL=64
+2023-05-03 12:06:53.601617 : Reply from 192.168.0.1: bytes=32 time=3ms TTL=64
+2023-05-03 12:06:54.146683 : Reply from 192.168.0.1: bytes=32 time=6ms TTL=64
+2023-05-03 12:06:54.687048 : Reply from 192.168.0.1: bytes=32 time=13ms TTL=64
+2023-05-03 12:06:55.227071 : Reply from 192.168.0.1: bytes=32 time=4ms TTL=64
+2023-05-03 12:06:55.777167 : Reply from 192.168.0.1: bytes=32 time=13ms TTL=64

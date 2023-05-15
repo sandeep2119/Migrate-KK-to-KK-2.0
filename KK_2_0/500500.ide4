@@ -1,0 +1,1359 @@
+[Dispenser]
+FileVersion = 4.001
+Type = HA480
+Id = 32HA480
+DataLink = TCP/IP
+CleanRounds = 1
+Simulate = 0
+ShowDialogs = 1
+CurrentVersionNumber = 2.8.0.21
+MaxSteps = 15719
+BrushCleanInterval = 168
+BrushMaximumFormula = 1000
+BrushCleanDuration = 60
+ScheduleCleanRound = 1830
+ScheduleFlushRound1 = 0
+SerialNumber = P140870938604928
+ScheduleFlushRound2 = 0
+ScheduleFlushRound3 = 0
+ScheduleFlushRound4 = 0
+SuppressRemoveCanMessage = True
+ScheduleFlushAndIntakeSpeedValidation = 630
+AgitationInterval = 60
+
+[SimulationDelays]
+Initialize = 0
+Reset = 3000
+CloseValve = 200
+OpenValve = 200
+StepperHome = 200
+GoToTablePosition = 3000
+DispenseStroke = 3000
+
+[Agitation]
+Duration = 180
+Interval = 180
+
+[Component1]
+Id = wZ1
+Density = 1.314
+DensityMeasuredDate = 2016-11-29 14:15:55
+Color = 0
+
+[Component2]
+Id = O
+Density = 1.28
+DensityMeasuredDate = 2016-11-28 14:28:27
+Color = 12940
+
+[Component3]
+Id = wR2
+Density = 1.1958
+DensityMeasuredDate = 2016-11-28 14:37:39
+Color = 16717077
+
+[Component4]
+Id = G
+Density = 1.9296
+DensityMeasuredDate = 2019-04-05 11:10:03
+Color = 9185310
+
+[Component5]
+Id = wY1
+Density = 1.95
+DensityMeasuredDate = 2016-11-28 14:57:18
+Color = 15118080
+
+[Component6]
+Id = wY1
+Density = 1.94
+DensityMeasuredDate = 2016-11-28 15:07:44
+Color = 15118080
+
+[Component7]
+Id = wG1
+Density = 1.3161
+DensityMeasuredDate = 2016-11-28 15:24:08
+Color = 45136
+
+[Component8]
+Id = AT Mix
+Density = 1.22
+DensityMeasuredDate = 2016-11-28 15:43:39
+Color = 392990
+
+[Component9]
+Id = W
+Density = 1.0973
+DensityMeasuredDate = 2016-11-28 16:26:34
+Color = 16742480
+
+[Component10]
+Id = sW1
+Density = 1.56
+DensityMeasuredDate = 2016-02-18 11:39:48
+Color = 16777215
+
+[Component11]
+Id = wO3
+Density = 1.18
+DensityMeasuredDate = 2016-02-18 12:12:01
+Color = 16223488
+
+[Component12]
+Id = H
+Density = 2.02
+DensityMeasuredDate = 2016-02-18 13:24:02
+Color = 1013840
+
+[Component13]
+Id = wW1
+Density = 2.06
+DensityMeasuredDate = 2016-02-18 13:36:25
+Color = 16777215
+
+[Component14]
+Id = wV1
+Density = 1.15
+DensityMeasuredDate = 2016-02-18 13:46:04
+Color = 7352480
+
+[Component15]
+Id = wY2
+Density = 1.18
+DensityMeasuredDate = 2016-02-18 13:58:09
+Color = 16766483
+
+[Component16]
+Id = F
+Density = 1.34
+DensityMeasuredDate = 2016-02-19 14:26:49
+Color = 15741520
+
+[Component17]
+Id = sZ1
+Density = 1.03
+DensityMeasuredDate = 2016-02-18 14:19:44
+Color = 0
+
+[Component18]
+Id = sV1
+Density = 0.98
+DensityMeasuredDate = 2016-02-18 14:32:11
+Color = 13500671
+
+[Component19]
+Id = sY3
+Density = 1.9186
+DensityMeasuredDate = 2016-11-30 12:17:51
+Color = 16764771
+
+[Component20]
+Id = Empty
+Density = 1.23
+DensityMeasuredDate = 2016-02-18 14:51:07
+Color = 
+
+[Component21]
+Id = sY1
+Density = 1.73
+DensityMeasuredDate = 2016-02-18 15:45:34
+Color = 16751203
+
+[Component22]
+Id = sV2
+Density = 1.00
+DensityMeasuredDate = 2016-02-18 16:14:02
+Color = 16737791
+
+[Component23]
+Id = sO1
+Density = 1.13
+DensityMeasuredDate = 2016-02-18 16:25:15
+Color = 16764771
+
+[Component24]
+Id = sR1
+Density = 1.88
+DensityMeasuredDate = 2016-02-18 16:36:33
+Color = 16711680
+
+[Component25]
+Id = sB1
+Density = 1.02
+DensityMeasuredDate = 2016-02-19 09:26:49
+Color = 26012
+
+[Component26]
+Id = sTY
+Density = 1.22
+DensityMeasuredDate = 2016-02-19 10:28:00
+Color = 10263139
+
+[Component27]
+Id = sR2
+Density = 1.06
+DensityMeasuredDate = 2016-02-19 10:37:49
+Color = 16711680
+
+[Component28]
+Id = sG1
+Density = 1.07
+DensityMeasuredDate = 2016-02-19 10:47:46
+Color = 3237169
+
+[Component29]
+Id = sW1
+Density = 1.80
+DensityMeasuredDate = 2016-02-19 10:58:06
+Color = 16777215
+
+[Component30]
+Id = sB2
+Density = 1.01
+DensityMeasuredDate = 2016-02-19 11:22:45
+Color = 6553599
+
+[Component31]
+Id = sY2
+Density = 1.03
+DensityMeasuredDate = 2016-02-19 13:44:01
+Color = 16764771
+
+[Component32]
+Id = sR3
+Density = 1.02
+DensityMeasuredDate = 2016-02-19 14:00:10
+Color = 16711680
+
+[Canister1]
+Id = 1
+ComponentId = wZ1
+MaxLevel = 6.000000
+WarnLevel = 1
+MinLevel = 1.000000
+Disabled = 1
+
+[Channel1]
+Id = 1
+Pos = 1
+CanisterId = 1
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 14:0.0654490106544901
+CP_2 = 20:0.109969558599696
+CP_3 = 61:0.407914764079148
+CP_4 = 285:1.99543378995434
+CP_5 = 709:4.98858447488584
+CP_6 = 2120:14.9885844748858
+CP_7 = 4242:29.9893455098935
+CP_8 = 14142:99.6666666666667
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 10:09:20
+CalibrationPlanId = 2
+IntakeFlowRate = 50
+PrimingInterval = 24
+VerificationPlanId = 5
+Disabled = True
+FlushOccurence = 0
+
+[Canister2]
+Id = 2
+ComponentId = O
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+
+[Channel2]
+Id = 2
+Pos = 2
+CanisterId = 2
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 16:0.0825520833333333
+CP_2 = 24:0.141927083333333
+CP_3 = 77:0.565364583333333
+CP_4 = 408:2.94661458333333
+CP_5 = 1035:7.42109375
+CP_6 = 6249:44.57734375
+CP_7 = 15318:109.18984375
+WaitBeforeDispense = 250
+CalibrationDate = 2019-11-14 13:18:25
+CalibrationPlanId = 2
+IntakeFlowRate = 50
+PrimingInterval = 24
+VerificationPlanId = 5
+
+[Canister3]
+Id = 3
+ComponentId = wR2
+MaxLevel = 2.000000
+WarnLevel = 0.49
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel3]
+Id = 3
+Pos = 3
+CanisterId = 3
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 12:0.0660645592908513
+CP_2 = 17:0.105786920889781
+CP_3 = 56:0.398059876233484
+CP_4 = 277:1.9919719016558
+CP_5 = 701:5.01003512293026
+CP_6 = 2130:15.0694096002676
+CP_7 = 4240:29.9431343033952
+CP_8 = 14186:99.9004850309416
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 10:08:06
+CalibrationPlanId = 1
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister4]
+Id = 4
+ComponentId = G
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+
+[Channel4]
+Id = 4
+Pos = 4
+CanisterId = 4
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 11:0.0825049723156404
+CP_2 = 18:0.154541348897764
+CP_3 = 57:0.469221117679528
+CP_4 = 280:2.07005251938509
+CP_5 = 699:5.01110602372717
+CP_6 = 2116:15.0131064259534
+CP_7 = 4251:30.0300997067584
+CP_8 = 14184:99.9357024592601
+WaitBeforeDispense = 250
+CalibrationDate = 2019-04-05 11:20:43
+CalibrationPlanId = 2
+IntakeFlowRate = 50
+PrimingInterval = 24
+VerificationPlanId = 6
+
+[Canister5]
+Id = 5
+ComponentId = wY1
+MaxLevel = 6.000000
+WarnLevel = 1.500000
+MinLevel = 1.000000
+Disabled = 1
+
+[Channel5]
+Id = 5
+Pos = 5
+CanisterId = 5
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 12:0.0657267225083676
+CP_2 = 17:0.103272462410905
+CP_3 = 58:0.405285885229697
+CP_4 = 279:2.00145674002393
+CP_5 = 702:5.00078039644139
+CP_6 = 2130:15.0340773112741
+CP_7 = 4255:29.9453722491025
+CP_8 = 14158:99.9776286353468
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-29 15:28:56
+CalibrationPlanId = 1
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister6]
+Id = 6
+ComponentId = wY1
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+
+[Channel6]
+Id = 6
+Pos = 6
+CanisterId = 6
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 15:0.0967
+CP_2 = 21:0.1378
+CP_3 = 62:0.4221
+CP_4 = 300:2.1301
+CP_5 = 746:5.2214
+CP_6 = 2244:15.6698
+CP_7 = 4481:31.2542
+CP_8 = 14971:104.3515
+WaitBeforeDispense = 250
+CalibrationDate = 2021-10-20 14:27:15
+IntakeFlowRate = 50
+PrimingInterval = 24
+CalibrationPlanId = 1
+VerificationPlanId = 7
+DispenseFlowratePercentage = 90
+IntakeFlowRatePercentage = 100
+
+[Canister7]
+Id = 7
+ComponentId = wG1
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel7]
+Id = 7
+Pos = 7
+CanisterId = 7
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 15:0.100549603626877
+CP_2 = 15:0.0934579439252336
+CP_3 = 58:0.398905858217461
+CP_4 = 282:2.00060785654586
+CP_5 = 704:4.99126206215333
+CP_6 = 2121:14.9882227794241
+CP_7 = 4244:29.9741660968012
+CP_8 = 14149:99.9179393663096
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-29 15:57:56
+IntakeFlowRate = 50
+PrimingInterval = 24
+CalibrationPlanId = 1
+Disabled = True
+FlushOccurence = 0
+
+[Canister8]
+Id = 8
+ComponentId = AT Mix
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+
+[Channel8]
+Id = 8
+Pos = 8
+CanisterId = 8
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 9:0.0225
+CP_2 = 13:0.0576
+CP_3 = 54:0.3287
+CP_4 = 277:1.9566
+CP_5 = 696:4.9828
+CP_6 = 2119:15.1995
+CP_7 = 4225:30.3242
+CP_8 = 14154:101.5508
+WaitBeforeDispense = 250
+CalibrationDate = 2021-10-18 13:52:38
+IntakeFlowRate = 25
+PrimingInterval = 24
+CalibrationPlanId = 1
+Disabled = False
+IntakeFlowRatePercentage = 83
+VerificationPlanId = 5
+DispenseFlowratePercentage = 95
+
+[Canister9]
+Id = 9
+ComponentId = W
+MaxLevel = 2.000000
+WarnLevel = 0.49
+MinLevel = 0.400000
+
+[Channel9]
+Id = 9
+Pos = 9
+CanisterId = 9
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 15:0.0844497098939822
+CP_2 = 19:0.116649958990249
+CP_3 = 58:0.39399738752696
+CP_4 = 279:1.99033992527112
+CP_5 = 702:4.99134238585619
+CP_6 = 2117:15.0050123029254
+CP_7 = 4239:29.9589902487925
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 10:30:03
+CP_8 = 14144:99.9608129044017
+IntakeFlowRate = 50
+PrimingInterval = 24
+CalibrationPlanId = 1
+
+[Canister10]
+Id = 10
+ComponentId = sW1
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel10]
+Id = 10
+Pos = 10
+CanisterId = 10
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 9:0.0925213675213675
+CP_2 = 12:0.11025641025641
+CP_3 = 52:0.39017094017094
+CP_4 = 285:1.99551282051282
+CP_5 = 713:4.99294871794872
+CP_6 = 2128:14.9903846153846
+CP_7 = 4246:30
+CP_8 = 14157:100.046153846154
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 10:43:19
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = 1
+FlushOccurence = 0
+
+[Canister11]
+Id = 11
+ComponentId = wO3
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel11]
+Id = 11
+Pos = 11
+CanisterId = 11
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 9:0.0451977401129944
+CP_2 = 16:0.103107344632768
+CP_3 = 57:0.396327683615819
+CP_4 = 283:2.01652542372881
+CP_5 = 708:5.00169491525424
+CP_6 = 2140:15.0139830508475
+CP_7 = 4276:29.9762711864407
+CP_8 = 14273:99.9923728813559
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 10:56:26
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister12]
+Id = 12
+ComponentId = H
+MaxLevel = 2.000000
+WarnLevel = 0.49
+MinLevel = 0.400000
+
+[Channel12]
+Id = 12
+Pos = 12
+CanisterId = 12
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 9:0.117986798679868
+CP_2 = 11:0.126402640264026
+CP_3 = 51:0.394554455445545
+CP_4 = 275:1.98168316831683
+CP_5 = 710:4.96658415841584
+CP_6 = 2155:14.9690594059406
+CP_7 = 4314:30.0183168316832
+CP_8 = 14386:99.9163366336634
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 11:12:43
+IntakeFlowRate = 50
+PrimingInterval = 24
+FlushOccurence = 0
+
+[Canister13]
+Id = 13
+ComponentId = wW1
+MaxLevel = 6.000000
+WarnLevel = 1.500000
+MinLevel = 1.000000
+Disabled = 1
+
+[Channel13]
+Id = 13
+Pos = 13
+CanisterId = 13
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 15:0.0629449838187702
+CP_2 = 19:0.115210355987055
+CP_3 = 59:0.404045307443366
+CP_4 = 282:2.02402912621359
+CP_5 = 703:4.97815533980583
+CP_6 = 2154:15.0956310679612
+CP_7 = 4281:29.9842233009709
+CP_8 = 14253:99.3184466019417
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 11:28:59
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister14]
+Id = 14
+ComponentId = wV1
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel14]
+Id = 14
+Pos = 14
+CanisterId = 14
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 12:0.10463768115942
+CP_2 = 15:0.118840579710145
+CP_3 = 57:0.391884057971015
+CP_4 = 273:2.00782608695652
+CP_5 = 699:5.00608695652174
+CP_6 = 2118:14.9895652173913
+CP_7 = 4250:30.0008695652174
+CP_8 = 14213:100.04
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 11:36:02
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister15]
+Id = 15
+ComponentId = wY2
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel15]
+Id = 15
+Pos = 15
+CanisterId = 15
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 13:0.0728813559322034
+CP_2 = 18:0.118079096045198
+CP_3 = 57:0.401129943502825
+CP_4 = 282:2.00338983050847
+CP_5 = 711:5.01694915254237
+CP_6 = 2187:15.3245762711864
+CP_7 = 4302:30.1042372881356
+CP_8 = 14313:100.111016949153
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 11:50:52
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister16]
+Id = 16
+ComponentId = F
+MaxLevel = 2.000000
+WarnLevel = 0.49
+MinLevel = 0.400000
+
+[Channel16]
+Id = 16
+Pos = 16
+CanisterId = 16
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 11:0.091044776119403
+CP_2 = 16:0.137686567164179
+CP_3 = 59:0.436194029850746
+CP_4 = 276:2.00298507462687
+CP_5 = 698:5.00149253731343
+CP_6 = 2114:15.0097014925373
+CP_7 = 4245:30.0111940298507
+CP_8 = 14174:99.9186567164179
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 12:04:48
+IntakeFlowRate = 50
+PrimingInterval = 24
+FlushOccurence = 0
+
+[Canister17]
+Id = 17
+ComponentId = sZ1
+MaxLevel = 6.000000
+WarnLevel = 1.500000
+MinLevel = 1.000000
+Disabled = 1
+
+[Channel17]
+Id = 17
+Pos = 17
+CanisterId = 17
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 18:0.0889967637540453
+CP_2 = 22:0.116828478964401
+CP_3 = 61:0.38252427184466
+CP_4 = 281:1.99417475728155
+CP_5 = 705:5.01504854368932
+CP_6 = 2115:15.0257281553398
+CP_7 = 4231:30.0495145631068
+CP_8 = 14083:100.153398058252
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 12:09:01
+IntakeFlowRate = 29
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister18]
+Id = 18
+ComponentId = sV1
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel18]
+Id = 18
+Pos = 18
+CanisterId = 18
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 14:0.0647959183673469
+CP_2 = 21:0.126020408163265
+CP_3 = 59:0.396938775510204
+CP_4 = 275:1.9969387755102
+CP_5 = 697:4.98877551020408
+CP_6 = 2108:14.9989795918367
+CP_7 = 4210:30.0040816326531
+CP_8 = 14047:99.9959183673469
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 12:15:05
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister19]
+Id = 19
+ComponentId = sY3
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel19]
+Id = 19
+Pos = 19
+CanisterId = 19
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 19:0.130827435730951
+CP_2 = 24:0.166791949935874
+CP_3 = 66:0.457635412636555
+CP_4 = 300:2.1865382186906
+CP_5 = 752:5.3701795630916
+CP_6 = 2254:15.9562561355841
+CP_7 = 4500:31.8280738465132
+CP_8 = 14995:106.000453982997
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 12:21:33
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister20]
+Id = 20
+ComponentId = Empty
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 0
+
+[Channel20]
+Id = 20
+Pos = 20
+CanisterId = 20
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 17:0.0902439024390244
+CP_2 = 21:0.123577235772358
+CP_3 = 62:0.404878048780488
+CP_4 = 278:2
+CP_5 = 705:4.99512195121951
+CP_6 = 2129:15.0170731707317
+CP_7 = 4263:30.0016260162602
+CP_8 = 14226:99.9829268292683
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 13:42:58
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = 0
+FlushOccurence = 0
+
+[Canister21]
+Id = 21
+ComponentId = sY1
+MaxLevel = 6.000000
+WarnLevel = 1.500000
+MinLevel = 1.000000
+Disabled = 1
+
+[Channel21]
+Id = 21
+Pos = 21
+CanisterId = 21
+DispenseFlowRate = 70
+WaitAfterDispense = 1500
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 18:0.0730250481695569
+CP_2 = 24:0.118111753371869
+CP_3 = 62:0.38766859344894
+CP_4 = 278:2.00520231213873
+CP_5 = 706:5.00202312138728
+CP_6 = 2126:14.9898843930636
+CP_7 = 4250:30.0005780346821
+CP_8 = 14662:99.9803468208092
+WaitBeforeDispense = 1500
+CalibrationDate = 2016-11-30 14:20:40
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister22]
+Id = 22
+ComponentId = sV2
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel22]
+Id = 22
+Pos = 22
+CanisterId = 22
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 16:0.0796666666666667
+CP_2 = 21:0.125
+CP_3 = 63:0.43
+CP_4 = 287:2.055
+CP_5 = 719:5.086
+CP_6 = 2149:15.1315
+CP_7 = 4288:30.238
+CP_8 = 14265:100.527
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 14:24:11
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister23]
+Id = 23
+ComponentId = sO1
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel23]
+Id = 23
+Pos = 23
+CanisterId = 23
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 13:0.0725663716814159
+CP_2 = 18:0.096165191740413
+CP_3 = 59:0.392920353982301
+CP_4 = 289:2.04690265486726
+CP_5 = 712:5.02389380530973
+CP_6 = 2133:14.9955752212389
+CP_7 = 4260:30.0274336283186
+CP_8 = 14194:100.003539823009
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 14:33:43
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister24]
+Id = 24
+ComponentId = sR1
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel24]
+Id = 24
+Pos = 24
+CanisterId = 24
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 20:0.125709219858156
+CP_2 = 26:0.167198581560284
+CP_3 = 64:0.432801418439716
+CP_4 = 280:1.99813829787234
+CP_5 = 703:4.97287234042553
+CP_6 = 2113:14.8875
+CP_7 = 4220:29.6909574468085
+CP_8 = 14082:99.1021276595745
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 14:44:11
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister25]
+Id = 25
+ComponentId = sB1
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel25]
+Id = 25
+Pos = 25
+CanisterId = 25
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 12:0.069281045751634
+CP_2 = 18:0.107516339869281
+CP_3 = 58:0.398039215686275
+CP_4 = 278:1.99901960784314
+CP_5 = 702:4.99901960784314
+CP_6 = 2120:14.9990196078431
+CP_7 = 4232:29.9990196078431
+CP_8 = 14127:100.005882352941
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 14:58:40
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister26]
+Id = 26
+ComponentId = sTY
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel26]
+Id = 26
+Pos = 26
+CanisterId = 26
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 13:0.060655737704918
+CP_2 = 17:0.107377049180328
+CP_3 = 60:0.390710382513661
+CP_4 = 280:2.02377049180328
+CP_5 = 707:5
+CP_6 = 2141:15.0204918032787
+CP_7 = 4285:29.9967213114754
+CP_8 = 14294:100.00737704918
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 15:06:19
+IntakeFlowRate = 19
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister27]
+Id = 27
+ComponentId = sR2
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel27]
+Id = 27
+Pos = 27
+CanisterId = 27
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 20:0.120440251572327
+CP_2 = 25:0.156603773584906
+CP_3 = 64:0.422327044025157
+CP_4 = 286:2.02028301886792
+CP_5 = 716:5.04622641509434
+CP_6 = 2145:15.086320754717
+CP_7 = 4283:30.1349056603774
+CP_8 = 14248:100.258490566038
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 15:14:02
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister28]
+Id = 28
+ComponentId = sG1
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel28]
+Id = 28
+Pos = 28
+CanisterId = 28
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 18:0.0962616822429906
+CP_2 = 24:0.133956386292835
+CP_3 = 62:0.399065420560748
+CP_4 = 279:1.99392523364486
+CP_5 = 703:4.98691588785047
+CP_6 = 2113:14.9658878504673
+CP_7 = 4227:29.9822429906542
+CP_8 = 14087:99.9570093457944
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 15:21:46
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister29]
+Id = 29
+ComponentId = sW1
+MaxLevel = 6.000000
+WarnLevel = 1.500000
+MinLevel = 1.000000
+Disabled = 1
+
+[Channel29]
+Id = 29
+Pos = 29
+CanisterId = 29
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 20:0.118148148148148
+CP_2 = 26:0.157592592592593
+CP_3 = 64:0.42037037037037
+CP_4 = 286:1.92694444444444
+CP_5 = 711:4.99138888888889
+CP_6 = 2128:15.0325
+CP_7 = 4248:30.1933333333333
+CP_8 = 14156:100.719444444444
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 15:29:43
+IntakeFlowRate = 19
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister30]
+Id = 30
+ComponentId = sB2
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel30]
+Id = 30
+Pos = 30
+CanisterId = 30
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 18:0.0917491749174918
+CP_2 = 22:0.114191419141914
+CP_3 = 62:0.393069306930693
+CP_4 = 287:2.05990099009901
+CP_5 = 718:5.05940594059406
+CP_6 = 2147:15.1217821782178
+CP_7 = 4279:30.1316831683168
+CP_8 = 14231:100.232673267327
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 15:37:56
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister31]
+Id = 31
+ComponentId = sY2
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel31]
+Id = 31
+Pos = 31
+CanisterId = 31
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 19:0.111650485436893
+CP_2 = 24:0.148220064724919
+CP_3 = 64:0.433656957928803
+CP_4 = 289:2.04126213592233
+CP_5 = 716:5.07912621359223
+CP_6 = 2137:15.104854368932
+CP_7 = 4262:30.1611650485437
+CP_8 = 14190:100.325242718447
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 15:45:14
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Canister32]
+Id = 32
+ComponentId = sR3
+MaxLevel = 2.000000
+WarnLevel = 0.500000
+MinLevel = 0.400000
+Disabled = 1
+
+[Channel32]
+Id = 32
+Pos = 32
+CanisterId = 32
+DispenseFlowRate = 70
+WaitAfterDispense = 750
+WaitAfterIntake = 250
+DripDelay = 500
+PumpType = 100 ml
+CP_1 = 17:0.0702614379084967
+CP_2 = 21:0.103921568627451
+CP_3 = 61:0.377941176470588
+CP_4 = 282:2.02058823529412
+CP_5 = 711:5.04656862745098
+CP_6 = 2132:15.0754901960784
+CP_7 = 4257:30.0588235294118
+CP_8 = 14163:100.006862745098
+WaitBeforeDispense = 250
+CalibrationDate = 2016-11-30 15:52:17
+IntakeFlowRate = 50
+PrimingInterval = 24
+Disabled = True
+FlushOccurence = 0
+
+[Plan1]
+Id = 1
+Name = Full Calibration 30 ml
+PlanType = 0
+MergeSwitchPoint = 0
+PumpType = 100 ml
+UnitId = Milliliter
+Default = False
+SP_1 = 0.08,0.05,5,1
+SP_2 = 0.12,0.05,5,1
+SP_3 = 0.4,0.05,5,1
+SP_4 = 2,0.1,3,0
+SP_5 = 5,0.1,3,0
+SP_6 = 15,0.15,3,0
+SP_7 = 30,0.3,2,0
+SP_8 = 100,1,1,0
+
+[Plan2]
+Id = 2
+Name = Quick Calibration 30 ml
+PlanType = 0
+MergeSwitchPoint = 2.1
+PumpType = 100 ml
+UnitId = Milliliter
+Default = True
+SP_1 = 0.08,0.05,3,1
+SP_2 = 0.12,0.05,3,1
+SP_3 = 0.4,0.05,3,1
+SP_4 = 2,0.1,3,0
+SP_5 = 5,0.15,3,0
+SP_6 = 30,0.15,1,0
+SP_7 = 100,0.15,1,0
+
+[Plan3]
+Id = 3
+Name = Full Verification 30 ml
+PlanType = 1
+MergeSwitchPoint = 0
+PumpType = 100 ml
+UnitId = Milliliter
+Default = False
+SP_1 = 0.08,0.05,5,1
+SP_2 = 0.12,0.05,5,1
+SP_3 = 0.4,0.05,5,1
+SP_4 = 2,0.1,3,0
+SP_5 = 5,0.1,3,0
+SP_6 = 15,0.15,3,0
+SP_7 = 30,0.15,2,0
+SP_8 = 100,0.15,1,0
+
+[Plan4]
+Id = 4
+PlanType = 1
+Name = Quick Verification 30 ml
+MergeSwitchPoint = 2.1
+PumpType = 100 ml
+UnitId = Milliliter
+Default = False
+SP_1 = 0.08,0.05,3,1
+SP_2 = 0.12,0.05,3,1
+SP_3 = 0.4,0.05,3,1
+SP_4 = 2,0.1,3,0
+SP_5 = 5,0.15,3,0
+SP_6 = 30,0.15,1,0
+SP_7 = 100,0.15,1,0
+Approver = FFM/JCRewijk
+
+[Access]
+Key2 = SA4B4
+Key1 = A44AD
+FileDate = 14/11/2019 13:11:35
+
+[Plan5]
+Id = 5
+Name = Akzo Verification
+Default = 1
+MergeSwitchPoint = 0
+PumpType = 100 ml
+UnitId = Milliliter
+PlanType = 1
+SP_1 = 0.154,0.05,5,1
+SP_2 = 0.616,0.05,5,1
+SP_3 = 3.08,0.3,3,0
+SP_4 = 30.8,1,3,0
+SP_5 = 100,1,1,0
+
+[Plan6]
+Id = 6
+Name = autodrive check
+Default = False
+MergeSwitchPoint = 0
+PumpType = 100 ml
+UnitId = Milliliter
+PlanType = 1
+SP_1 = 30.8,0.05,1,1
+SP_2 = 61.6,0.05,1,1
+
+[Plan7]
+Id = 7
+Name = Scale volume check
+Default = 0
+MergeSwitchPoint = 0
+PumpType = 100 ml
+UnitId = Milliliter
+PlanType = 1
+SP_1 = 30,0.6,3,0
+SP_2 = 100,1,1,0
+

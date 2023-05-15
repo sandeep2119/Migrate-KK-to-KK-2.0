@@ -1,0 +1,777 @@
+[Dispenser]
+FileVersion = 4.001
+Id = 16X-Smart
+Type = X-Smart
+DataLink = /dev/dispenser
+DatalinkBaudrate = 38400
+CleanOffset = 3
+CleanRounds = 1
+ShowDialogs = 1
+SuppressRemoveCanMessage = 0
+CurrentVersionNumber = 2.8.0.21
+AgitationDuration = 180
+AgitationInterval = 60
+
+[Canister1]
+Id = 1
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = A
+Disabled = 0
+
+[Component1]
+Id = A
+ComponentId = A
+Density = 2.036
+Color = 16777215
+
+[Canister2]
+Id = 2
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = B
+Disabled = 0
+
+[Component2]
+Id = B
+ComponentId = B
+Density = 1.334
+Color = 16645452
+
+[Canister3]
+Id = 3
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = C
+Disabled = 0
+
+[Component3]
+Id = C
+ComponentId = C
+Density = 1.21
+Color = 16444160
+
+[Canister4]
+Id = 4
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = E
+Disabled = 0
+
+[Component4]
+Id = E
+ComponentId = E
+Density = 1.26
+Color = 13474823
+
+[Canister5]
+Id = 5
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = F
+Disabled = 0
+
+[Component5]
+Id = F
+ComponentId = F
+Density = 1.34
+Color = 16711807
+
+[Canister6]
+Id = 6
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = H
+Disabled = 0
+
+[Component6]
+Id = H
+ComponentId = H
+Density = 1.23
+Color = 16724736
+
+[Canister7]
+Id = 7
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = I
+Disabled = 0
+
+[Component7]
+Id = I
+ComponentId = I
+Density = 1.22
+Color = 16711840
+
+[Canister8]
+Id = 8
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = J
+Disabled = 0
+
+[Component8]
+Id = J
+ComponentId = J
+Density = 1.34
+Color = 6881505
+
+[Canister9]
+Id = 9
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = D
+Disabled = 0
+
+[Component9]
+Id = D
+ComponentId = D
+Density = 1.865
+Color = 16629248
+
+[Canister10]
+Id = 10
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = G
+Disabled = 0
+
+[Component10]
+Id = G
+ComponentId = G
+Density = 1.95
+Color = 4259840
+
+[Canister11]
+Id = 11
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = K
+Disabled = 0
+
+[Component11]
+Id = K
+ComponentId = K
+Density = 1.44
+Color = 200
+
+[Canister12]
+Id = 12
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = L
+Disabled = 0
+
+[Component12]
+Id = L
+ComponentId = L
+Density = 1.269
+Color = 65
+
+[Canister13]
+Id = 13
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = M
+Disabled = 0
+
+[Component13]
+Id = M
+ComponentId = M
+Density = 1.305
+Color = 21760
+
+[Canister14]
+Id = 14
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = N
+Disabled = 0
+
+[Component14]
+Id = N
+ComponentId = N
+Density = 1.348
+Color = 23040
+
+[Canister15]
+Id = 15
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = O
+Disabled = 0
+
+[Component15]
+Id = O
+ComponentId = O
+Density = 1.61
+Color = 6400
+
+[Canister16]
+Id = 16
+MaxLevel = 2.25
+WarnLevel = 0.4
+MinLevel = 0.2
+ComponentId = P
+Disabled = 0
+
+[Component16]
+Id = P
+ComponentId = P
+Density = 1.31
+Color = 0 
+
+[Channel1]
+Id = 1
+Pos = 1
+CanisterId = 1
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-11 12:01:02 PM
+SwitchPoint = 0
+CP_1 = 18:0.099097
+CP_2 = 102:0.500169
+CP_3 = 204:1.000979
+CP_4 = 1020:5.001143
+CP_5 = 2041:10.001473
+CP_6 = 6117:30.002454
+CP_7 = 6195:30.410190
+
+[Channel2]
+Id = 2
+Pos = 2
+CanisterId = 2
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-11 12:48:38 PM
+CP_1 = 19:0.100176
+CP_2 = 104:0.500750
+CP_3 = 207:0.998025
+CP_4 = 1031:4.998288
+CP_5 = 2052:9.998900
+CP_6 = 6144:29.997664
+CP_7 = 6195:30.410190
+
+[Channel3]
+Id = 3
+Pos = 3
+CanisterId = 3
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-12 2:14:04 PM
+SwitchPoint = 0
+CP_1 = 19:0.101119
+CP_2 = 99:0.499190
+CP_3 = 203:1.001566
+CP_4 = 1016:5.002395
+CP_5 = 2017:10.002306
+CP_6 = 6039:29.999269
+CP_7 = 6195:30.410190
+
+[Channel4]
+Id = 4
+Pos = 4
+CanisterId = 4
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0005
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-12 4:02:42 PM
+SwitchPoint = 0
+CP_1 = 18:0.101528
+CP_2 = 99:0.501347
+CP_3 = 203:1.002040
+CP_4 = 1016:4.998521
+CP_5 = 2030:10.000575
+CP_6 = 6101:29.999800
+CP_7 = 6195:30.410190
+
+[Channel5]
+Id = 5
+Pos = 5
+CanisterId = 5
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-11 4:11:29 PM
+SwitchPoint = 0
+CP_1 = 15:0.098500
+CP_2 = 93:0.498077
+CP_3 = 200:1.001045
+CP_4 = 1020:5.000194
+CP_5 = 2060:10.002095
+CP_6 = 6180:29.997702
+CP_7 = 6195:30.410190
+
+[Channel6]
+Id = 6
+Pos = 6
+CanisterId = 6
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-11 4:48:02 PM
+SwitchPoint = 0
+CP_1 = 14:0.101626
+CP_2 = 98:0.498364
+CP_3 = 201:0.998133
+CP_4 = 1030:5.001907
+CP_5 = 2051:10.001478
+CP_6 = 6165:30.002203
+CP_7 = 6195:30.410190
+
+[Channel7]
+Id = 7
+Pos = 7
+CanisterId = 7
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-11 5:21:41 PM
+SwitchPoint = 0
+CP_1 = 16:0.098631
+CP_2 = 94:0.501906
+CP_3 = 199:0.998634
+CP_4 = 1010:4.998405
+CP_5 = 2025:9.997827
+CP_6 = 6106:29.998981
+CP_7 = 6195:30.410190
+
+[Channel8]
+Id = 8
+Pos = 8
+CanisterId = 8
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-11 5:55:00 PM
+SwitchPoint = 0
+CP_1 = 13:0.099005
+CP_2 = 90:0.501779
+CP_3 = 191:1.001961
+CP_4 = 978:5.000611
+CP_5 = 1961:10.001295
+CP_6 = 5890:29.999442
+CP_7 = 6195:30.410190
+
+[Channel9]
+Id = 9
+Pos = 9
+CanisterId = 9
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-11 6:48:38 PM
+SwitchPoint = 0
+CP_1 = 15:0.099876
+CP_2 = 98:0.499896
+CP_3 = 202:0.999845
+CP_4 = 1033:4.997619
+CP_5 = 2068:9.997766
+CP_6 = 6173:30.001730
+CP_7 = 6195:30.410190
+
+[Channel10]
+Id = 10
+Pos = 10
+CanisterId = 10
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-11 7:23:00 PM
+SwitchPoint = 0
+CP_1 = 20:0.101294
+CP_2 = 100:0.499194
+CP_3 = 200:1.000781
+CP_4 = 997:4.998026
+CP_5 = 1993:9.999316
+CP_6 = 5990:30.002399
+CP_7 = 6195:30.410190
+
+[Channel11]
+Id = 11
+Pos = 11
+CanisterId = 11
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-12 10:25:21 AM
+SwitchPoint = 0
+CP_1 = 15:0.101373
+CP_2 = 96:0.499838
+CP_3 = 198:0.997669
+CP_4 = 1008:5.000016
+CP_5 = 2014:10.000186
+CP_6 = 6078:29.999838
+CP_7 = 6195:30.410190
+
+[Channel12]
+Id = 12
+Pos = 12
+CanisterId = 12
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-12 11:41:09 AM
+SwitchPoint = 0
+CP_1 = 17:0.101129
+CP_2 = 98:0.501205
+CP_3 = 195:1.000062
+CP_4 = 995:4.998130
+CP_5 = 1990:9.998268
+CP_6 = 5994:29.998512
+CP_7 = 6195:30.410190
+
+[Channel13]
+Id = 13
+Pos = 13
+CanisterId = 13
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-12 12:12:06 PM
+SwitchPoint = 0
+CP_1 = 17:0.099672
+CP_2 = 98:0.499513
+CP_3 = 198:1.001610
+CP_4 = 1000:5.002142
+CP_5 = 2006:9.999540
+CP_6 = 6032:29.997950
+CP_7 = 6195:30.410190
+
+[Channel14]
+Id = 14
+Pos = 14
+CanisterId = 14
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-12 12:43:06 PM
+SwitchPoint = 0
+CP_1 = 14:0.097824
+CP_2 = 95:0.498859
+CP_3 = 193:0.997854
+CP_4 = 990:4.998365
+CP_5 = 1983:10.000151
+CP_6 = 5961:30.001649
+CP_7 = 6195:30.410190
+
+[Channel15]
+Id = 15
+Pos = 15
+CanisterId = 15
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-12 1:20:55 PM
+SwitchPoint = 0
+CP_1 = 15:0.101035
+CP_2 = 96:0.500231
+CP_3 = 195:1.000146
+CP_4 = 1025:4.998511
+CP_5 = 2037:10.000781
+CP_6 = 6126:29.997970
+CP_7 = 6195:30.410190
+
+[Channel16]
+Id = 16
+Pos = 16
+CanisterId = 16
+IntakeFlowRate = 15
+DispenseFlowRate = 15
+WaitAfterIntake = 300
+WaitAfterDispense = 1000
+SniffAmount = 0.491
+SniffFlowRate = 12
+PurgeAmount = 0.500
+PurgeInterval = 72
+PrimeInterval = 0.01
+DripDelay = 0
+FillOffset = 0
+MinimumSteps = 0
+PreFlushAmount = 0
+MinimumDispenseAmount = 0.0001
+PrimeBeforePurge = 5
+PrimeBeforeDispense = 0
+PumpType = 30 ml
+ValveOpening = 1
+CalibrationState = 1
+CalibrationDate = 2012-05-12 1:47:52 PM
+SwitchPoint = 0
+CP_1 = 17:0.097964
+CP_2 = 96:0.500084
+CP_3 = 195:0.998473
+CP_4 = 1005:4.997892
+CP_5 = 2011:10.002019
+CP_6 = 6050:29.997744
+CP_7 = 6195:30.410190
+
+[DispenseFeedback]
+Type = Manual
+Id = 
+Resolution = 2
+MaxWeight = 0
+DataLink = :9600,E,7,2
+SamplingInterval = 200
+SampleCount = 5
+SampleTolerance = 0
+UniversalTareCmd = TareCmd
+UniversalWeightCmd = WeightCmd
+
